@@ -1,5 +1,5 @@
 # Ardi_Display_Shield_Software
-<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ArdiRelayShield.jpg?v=1683883429">
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ArdiPiDisplayShield.jpg?v=1683880851">
 Ardi Display Shield features a vibrant 2" IPS screen with a resolution of 240 x 320 pixels, this shield seamlessly integrates with your Arduino Uno and compatible boards, Ardi32 and ArdiPi. Two programmable buttons and 5-Way Joystick onboard gives ability to add additional control features to your project.
 
 This github provides getting started guide and other working details for Ardi Display Shield 
@@ -22,47 +22,45 @@ This github provides getting started guide and other working details for Ardi Di
   
 ### Hardware Overview
 #### Pinout
-<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/relaypinout.jpg?v=1688467593">
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/ardi2.0displayshieldpinout.jpg?v=1688469169">
 
+- (1) & (4) Programmable Buttons
+- (2) Voltage Selection 3.3V/5V
+- (3) TFT 2.0 Display
+- (5) 5-Way Joystick
+
+**Note: Don't forget to set jumper on correct selection when using with 5V or 3.3V board**. For 3V3-SEL when using with 3.3V compatible boards and SEL-5V when using with 5V boards.
 
 #### Interfacing Details
 
-When Relay shield mounted on Arduino Uno, 
-|Relay shield | Arduino UNO| 
+When Relay shield mounted on Arduino Uno, selection **jumper** must be on **SEL-5V** side 
+|Arduino UNO | Display shield | 
 |---|---|
-| RL1 | D4 | 
+| RL1 | CLK | 
 | RL2 | D5 | 
 | RL3 | D6 | 
-| RL4 | D7 |G
+| RL4 | D7 |
+| RL4 | D7 |
+| RL4 | D7 |
 
-When Relay shield mounted on Ardi32, 
-|Relay shield | Ardi32 | 
-|---|---|
-| RL1 | IO41 | 
-| RL2 | IO2 | 
-| RL3 | IO9 | 
-| RL4 | IO14 |
+When Relay shield mounted on Ardi-32, selection **jumper** must be on **3V3-SEL** side
 
-When Relay shield mounted on ArdiPi, 
-|Relay shield | ArdiPi | 
-|---|---|
-| RL1 | GP4 | 
-| RL2 | GP3 | 
-| RL3 | GP11 | 
-| RL4 | GP10 |
-   
+
+When Relay shield mounted on ArdiPi, selection **jumper** must be on **3V3-SEL** side
+
+
 ### Example Codes
-   Also, sample codes are available for Ardi Relay shield
-   - [Ardi Relay shield for UNO]() 
-   - [Ardi Relay shield for Ardi32]() 
-   - [Ardi Relay shield for ArdiPi]()
+   Also, sample codes are available for Ardi Display shield
+   - [Ardi Display shield for UNO]() 
+   - [Ardi Display shield for Ardi32]() 
+   - [Ardi Display shield for ArdiPi]()
    
    Using this sample code as a guide, you can modify, build for other boards and share codes!!  
    
 ## Resources
-  * [Schematic]()
-  * [Hardware Files]()
-  * [Step File]()
+  * [Schematic](https://github.com/sbcshop/Ardi_Display_Shield_Hardware/blob/main/Design%20Data/SCH%202.0%20INCH%20LCD%20Shield.pdf)
+  * [Hardware Files](https://github.com/sbcshop/Ardi_Display_Shield_Hardware/tree/main)
+  * [Step File](https://github.com/sbcshop/Ardi_Display_Shield_Hardware/blob/main/Mechanical%20Data/STEP%202.0%20INCH%20LCD%20Shield.step)
 
 
 ## Related Products
