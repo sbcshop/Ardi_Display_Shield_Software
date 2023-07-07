@@ -85,11 +85,19 @@ When Relay shield mounted on Arduino Uno, selection **jumper** must be on **SEL-
 | D0 | J_SEL | 
 
 
+### Installing Libraries
+   - You will have to follow this step when testing display shield with Ardi-32, Arduino uno or any arduino platform boards 
+   - Download [library zip file](https://github.com/sbcshop/Ardi_Display_Shield_Software/blob/main/libraries.zip) provided here in github.
+   - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
+     <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
+
 ### Example Codes
    Also, sample codes are available for Ardi Display shield
-   - [Ardi Display shield for UNO]() 
-   - [Ardi Display shield for Ardi32]() 
    - [Ardi Display shield for ArdiPi]()
+     
+Both examples below will need libraries installation as shown in [above step]().
+   - [Ardi Display shield for Ardi32]() 
+   - [Ardi Display shield for UNO]() 
    
    Using this sample code as a guide, you can modify, build for other boards and share codes!!  
    
