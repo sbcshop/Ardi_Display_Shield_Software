@@ -29,24 +29,60 @@ This github provides getting started guide and other working details for Ardi Di
 - (3) TFT 2.0 Display
 - (5) 5-Way Joystick
 
-**Note: Don't forget to set jumper on correct selection when using with 5V or 3.3V board**. For 3V3-SEL when using with 3.3V compatible boards and SEL-5V when using with 5V boards.
+**Note:** Don't forget to set jumper selection on correct selection when using with 5V or 3.3V board. Put jumpber on **3V3-SEL** when using with **3.3V MCU boards** and on **SEL-5V** when using with **5V MCU Boards**.
 
 #### Interfacing Details
+
+When Relay shield mounted on ArdiPi, selection **jumper** must be on **3V3-SEL** side
+|ArdiPi | Display shield | Function |
+|---|---|---|
+| GP18 | CLK | Clock pin of SPI interface for Display |
+| GP16 | BL | BackLight for display |
+| GP19 | DIN | MOSI (Master OUT Slave IN) pin of SPI interface for display |  
+| GP17 | CS | SPI Chip select pin for display |
+| GP14 | RST | Display Reset pin | 
+| GP15 | DC | Data/Command pin of SPI interface for display
+| GP3 | BT1 | Programmable Button 1 |
+| GP11 | BT2 | Programmable Button 2 |
+| GP4 | J_U | Joystick Up switch |
+| GP0 | J_R | Joystick Right switch |
+| GP5 | J_L | Joystick Left switch |
+| GP2 | J_D | Joystick Down switch |
+| GP1 | J_SEL | Joystick Centre switch |
+
+When Relay shield mounted on Ardi-32, selection **jumper** must be on **3V3-SEL** side
+|Ardi-32 | Display shield | 
+|---|---|---|
+| IO12 | CLK | 
+| IO13 | BL | 
+| IO11 | IOIN |  
+| IO10 | CS |
+| IO21 | RST |
+| IO47 | IOC |
+| IO9 | BT1 |
+| IO2 | BT2 | 
+| IO41 | J_U | 
+| IO42 | J_R |
+| IO1 | J_L |
+| IO17 | J_D | 
+| IO18 | J_SEL | 
 
 When Relay shield mounted on Arduino Uno, selection **jumper** must be on **SEL-5V** side 
 |Arduino UNO | Display shield | 
 |---|---|
-| RL1 | CLK | 
-| RL2 | D5 | 
-| RL3 | D6 | 
-| RL4 | D7 |
-| RL4 | D7 |
-| RL4 | D7 |
-
-When Relay shield mounted on Ardi-32, selection **jumper** must be on **3V3-SEL** side
-
-
-When Relay shield mounted on ArdiPi, selection **jumper** must be on **3V3-SEL** side
+| D13 | CLK | 
+| D12 | BL | 
+| D11 | DIN |  
+| D10 | CS |
+| D9 | RST |
+| D8 | DC |
+| D6 | BT1 |
+| D5 | BT2 | 
+| D4 | J_U | 
+| D3 | J_R |
+| D2 | J_L |
+| D1 | J_D | 
+| D0 | J_SEL | 
 
 
 ### Example Codes
