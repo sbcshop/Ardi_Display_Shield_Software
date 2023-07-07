@@ -52,7 +52,7 @@ When Relay shield mounted on ArdiPi, selection **jumper** must be on **3V3-SEL**
 
 When Relay shield mounted on Ardi-32, selection **jumper** must be on **3V3-SEL** side
 |Ardi-32 | Display shield | 
-|---|---|---|
+|---|---|
 | IO12 | CLK | 
 | IO13 | BL | 
 | IO11 | IOIN |  
