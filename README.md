@@ -76,8 +76,8 @@ When Relay shield mounted on Arduino Uno, selection **jumper** must be on **SEL-
 | D10 | CS |
 | D9 | RST |
 | D8 | DC |
-| D6 | BT1 |
-| D5 | BT2 | 
+| D6 | BT2 |
+| D5 | BT1 | 
 | D4 | J_U | 
 | D3 | J_R |
 | D2 | J_L |
