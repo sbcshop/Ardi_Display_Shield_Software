@@ -55,7 +55,7 @@ When Relay shield mounted on Ardi-32, selection **jumper** must be on **3V3-SEL*
 |---|---|
 | IO12 | CLK | 
 | IO13 | BL | 
-| IO11 | IOIN |  
+| IO11 | DIN |  
 | IO10 | CS |
 | IO21 | RST |
 | IO47 | DC |
