@@ -93,11 +93,11 @@ When Relay shield mounted on Arduino Uno, selection **jumper** must be on **SEL-
 
 ### Example Codes
    Also, sample codes are available for Ardi Display shield
-   - [Ardi Display shield for ArdiPi]()
+   - [Ardi Display shield for ArdiPi](https://github.com/sbcshop/Ardi_Display_Shield_Software/tree/main/examples/ArdiPi_Display_shield_interfacing)
      
-Both examples below will need libraries installation as shown in [above step]().
-   - [Ardi Display shield for Ardi32]() 
-   - [Ardi Display shield for UNO]() 
+Both examples below will need libraries installation as shown in [above step](https://github.com/sbcshop/Ardi_Display_Shield_Software/blob/main/README.md#installing-libraries).
+   - [Ardi Display shield for Ardi32](https://github.com/sbcshop/Ardi_Display_Shield_Software/tree/main/examples/Ardi32_Display_shield_interfacing) 
+   - [Ardi Display shield for UNO](https://github.com/sbcshop/Ardi_Display_Shield_Software/tree/main/examples/ArduinoUno_Display_shield_interfacing) 
    
    Using this sample code as a guide, you can modify, build for other boards and share codes!!  
    
