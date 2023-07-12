@@ -105,7 +105,9 @@ Both examples below will need libraries installation as shown in [above step](ht
   * [Schematic](https://github.com/sbcshop/Ardi_Display_Shield_Hardware/blob/main/Design%20Data/SCH%202.0%20INCH%20LCD%20Shield.pdf)
   * [Hardware Files](https://github.com/sbcshop/Ardi_Display_Shield_Hardware/tree/main)
   * [Step File](https://github.com/sbcshop/Ardi_Display_Shield_Hardware/blob/main/Mechanical%20Data/STEP%202.0%20INCH%20LCD%20Shield.step)
-
+  * [Official Arduino Getting Started](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
+  * [Official Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
+  * [Official Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
 
 ## Related Products
    * [Ardi-32](https://shop.sb-components.co.uk/products/ardi32-uno-r3-alternative-board-based-on-esp32-s3-wroom?_pos=6&_sid=90d9cefb0&_ss=r) - Arduino Uno Form factor with latest powerful ESP32 S3
