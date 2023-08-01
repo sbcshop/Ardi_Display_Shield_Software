@@ -29,11 +29,11 @@ This github provides getting started guide and other working details for Ardi Di
 - (3) TFT 2.0 Display
 - (5) 5-Way Joystick
 
-**Note:** Don't forget to set jumper selection on correct selection when using with 5V or 3.3V board. Put jumpber on **3V3-SEL** when using with **3.3V MCU boards** and on **SEL-5V** when using with **5V MCU Boards**.
+**Note:** Don't forget to set jumper selection on correct selection when using with 5V or 3.3V board. Put jumper on **_3V3-SEL_** when using with **_3.3V MCU boards_** and on **_SEL-5V_** when using with **_5V MCU Boards_**.
 
 #### Interfacing Details
 
-When Relay shield mounted on ArdiPi, selection **jumper** must be on **3V3-SEL** side
+When Relay shield mounted on ArdiPi, selection **jumper** must be on **_3V3-SEL_** side
 |ArdiPi | Display shield | Function |
 |---|---|---|
 | GP18 | CLK | Clock pin of SPI interface for Display |
@@ -50,7 +50,7 @@ When Relay shield mounted on ArdiPi, selection **jumper** must be on **3V3-SEL**
 | GP2 | J_D | Joystick Down switch |
 | GP1 | J_SEL | Joystick Centre switch |
 
-When Relay shield mounted on Ardi-32, selection **jumper** must be on **3V3-SEL** side
+When Relay shield mounted on Ardi-32, selection **jumper** must be on **_3V3-SEL_** side
 |Ardi-32 | Display shield | 
 |---|---|
 | IO12 | CLK | 
@@ -67,7 +67,7 @@ When Relay shield mounted on Ardi-32, selection **jumper** must be on **3V3-SEL*
 | IO17 | J_D | 
 | IO18 | J_SEL | 
 
-When Relay shield mounted on Arduino Uno, selection **jumper** must be on **SEL-5V** side 
+When Relay shield mounted on Arduino Uno, selection **jumper** must be on **_SEL-5V_** side 
 |Arduino UNO | Display shield | 
 |---|---|
 | D13 | CLK | 
