@@ -33,7 +33,7 @@ This github provides getting started guide and other working details for Ardi Di
 
 #### Interfacing Details
 
-When Relay shield mounted on ArdiPi, selection **jumper** must be on **_3V3-SEL_** side
+When Display mounted on ArdiPi, selection **jumper** must be on **_3V3-SEL_** side
 |ArdiPi | Display shield | Function |
 |---|---|---|
 | GP18 | CLK | Clock pin of SPI interface for Display |
@@ -50,7 +50,7 @@ When Relay shield mounted on ArdiPi, selection **jumper** must be on **_3V3-SEL_
 | GP2 | J_D | Joystick Down switch |
 | GP1 | J_SEL | Joystick Centre switch |
 
-When Relay shield mounted on Ardi-32, selection **jumper** must be on **_3V3-SEL_** side
+When Display shield mounted on Ardi-32, selection **jumper** must be on **_3V3-SEL_** side
 |Ardi-32 | Display shield | 
 |---|---|
 | IO12 | CLK | 
@@ -67,7 +67,7 @@ When Relay shield mounted on Ardi-32, selection **jumper** must be on **_3V3-SEL
 | IO17 | J_D | 
 | IO18 | J_SEL | 
 
-When Relay shield mounted on Arduino Uno, selection **jumper** must be on **_SEL-5V_** side 
+When Display shield mounted on Arduino Uno, selection **jumper** must be on **_SEL-5V_** side 
 |Arduino UNO | Display shield | 
 |---|---|
 | D13 | CLK | 
